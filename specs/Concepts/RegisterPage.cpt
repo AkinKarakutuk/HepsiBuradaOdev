@@ -1,0 +1,20 @@
+Created by testinium on 19.04.2023
+
+This is a concept file with following syntax for each concept.
+# Hepsiburada Kayıt Ol
+* "HesabımLogosu" id'li elemente tikla
+* "ÜyeolButonu" xpath'li elemente tikla
+* "EmailİnputAlanı" id'li elemente "akintestinium@gmail.com" text degerini gonder
+* "DevametButonu" id'li elemente tikla
+
+# Kullanıcı Bilgileri Kayıt Edilir
+* "ÜyelikYazısıKontrol" xpath'li element gorunur olana kadar bekle
+* "AdBilgisiİnput" id'li elemente "Akin" text degerini gonder
+* "SoyadBilgisiİnput" id'li elemente "Test" text degerini gonder
+* "ŞifreİnputAlanı" xpath'li elemente "Akintest1" text degerini gonder
+* "ÜyeOlButonu" xpath'li elemente tikla
+
+# Kullanıcı Kayıt Bilgileri Kontrol Edilir
+* "HesabımLogosu" id'li elemente tikla
+* "KullanıcıBilgileriKontrol" id'li element "Akin Test" text değerini içerdiğini kontrol et
+* "Anasayfaya" id'li elemente tikla

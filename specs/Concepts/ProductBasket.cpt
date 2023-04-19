@@ -1,0 +1,20 @@
+Created by testinium on 19.04.2023
+
+This is a concept file with following syntax for each concept.
+# Sepete Eklemek için Ürüne Gidilmesi
+* "KategoriUrun" xpath'li elemente tikla
+* "KişiÖzelButon" xpath'li elemente tikla
+
+# Ürünün Sepete Eklenmesi
+* "AndroidTelefon" xpath'li elemente tikla
+* "AndroidSepetEkle" xpath'li elemente tikla
+* "AndroidÖzelÜrün" xpath'li elemente tikla
+
+# Seçilen Ürün Sepet Kontrolü
+* "AndroidÜrünSepet" xpath'li elemente tikla
+* "SepetSayfa" xpath'li elemente tikla
+* "SepetUrunArttırma" xpath'li elemente tikla
+
+# Sipariş Tamamlanması
+* "SepetAlışverişTamamla" xpath'li elemente tikla
+* "SiparişOnay" xpath'li elemente tikla

@@ -1,0 +1,20 @@
+Created by testinium on 19.04.2023
+
+This is a concept file with following syntax for each concept.
+# Hepsiburada Kullanıcı Giriş Yap Alanına Geçiş Yapılır
+* "HepsiburaAnasayfa" xpath'li elemente tikla
+* "HesabımLogosu" id'li elemente tikla
+
+# Giriş Yap Kullanıcı Bilgileri Gönderilir
+* "GirişYapButonu" id'li elemente tikla
+* "EPostaİnputAlanı" id'li elemente "akintestinium@gmail.com" text degerini gonder
+* "LoginGirişYapButonu" xpath'li elemente tikla
+
+# Kullanıcı Bilgileri Şifre Gönderilir
+* "HoşGeldinizYazısıKontrol" xpath'li element gorunur olana kadar bekle
+* "ŞifreDeğeriİnputAlanı" xpath'li elemente "Akintest1" text degerini gonder
+* "GirişYapButonu" xpath'li elemente tikla
+
+# Giriş Yap Kullanıcı Bilgileri Kontrolü
+* "GirişYapKullanıcıBilgileriKontrolü" id'li element "Akin Test" text değerini içerdiğini kontrol et
+* "HesapEkranıÇıkış" id'li elemente tikla

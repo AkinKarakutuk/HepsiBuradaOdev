@@ -1,0 +1,21 @@
+Created by testinium on 19.04.2023
+
+This is a concept file with following syntax for each concept.
+# Hepsiburada Kategoride Ürün Seçilir
+* "KategoriSayfa" xpath'li elemente tikla
+* "BilgisayarTabletSecilir" xpath'li elemente tikla
+* "BilgisayarUrünüSeçimi" xpath'li elemente tikla
+
+# Ürün filtreleme ve Ürün Seçimi
+* "ÜrünFiltreleme" id'li elemente tikla
+* "MarkaSeçimi" xpath'li elemente tikla
+* "AsusMarkaSeçimi" xpath'li element gorunur olana kadar bekle
+* "AsusMarkaSeçimi" xpath'li elemente tikla
+* "UygulaButonu" li element gorunur olana kadar bekle
+* "UygulaButonu" id'li elemente tikla
+
+# Filtrelenen Ürün Seçimi
+* "ürünleriGöster" id'li elemente tikla
+* "RasgeleÜrünSeçimi" li elementi rasgele sec
+* "GeriButonu" id'li elemente tikla
+* "AnaSayfa" xpath'li elemente tikla

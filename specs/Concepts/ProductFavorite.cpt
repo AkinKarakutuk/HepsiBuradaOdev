@@ -1,0 +1,15 @@
+Created by testinium on 19.04.2023
+
+This is a concept file with following syntax for each concept.
+# Seçilen Ürünün Favorilere Eklenmesi
+* "FavoriButonu" xpath'li elemente tikla
+* "Hesabım" id'li elemente tikla
+* "HesapBeğeni" xpath'li elemente tikla
+
+# Favori Sayfası Kontrol
+* "BeğeniSayfaKontrol" xpath'li element gorunur olana kadar bekle
+
+# Favori Ürün Detay Seçimi
+* "BeğeniDetay" xpath'li elemente tikla
+* "BeğeniListeSil" xpath'li elemente tikla
+* "Anasayfa" xpath'li elemente tikla
